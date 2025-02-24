@@ -3,9 +3,9 @@
 <html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta charset="utf-8" />
-  <title>Laboratory Activity No. 1:</title>
-  <meta name="CreationTime" content="2025-02-11T18:20:39Z" />
-  <meta name="ModificationTime" content="2025-02-11T18:20:39Z" />
+  <title>LAB MANUAL USING DJANGO</title>
+  <meta name="CreationTime" content="2025-02-24T14:11:44Z" />
+  <meta name="ModificationTime" content="2025-02-24T14:11:44Z" />
   <meta name="Generator" content="Scrivener for Windows HTML Writer" />
   <meta name="ScrivenerVersion" content="3.1.4.0" />
   <style type="text/css">
@@ -26,6 +26,7 @@
     img.img20 {height: 301px; width: 331px}
     img.img21 {height: 326px; width: 354px}
     img.img22 {height: 246px; width: 289px}
+    img.img23 {height: 243px; width: 424px}
     img.img3 {height: 322px; width: 208px}
     img.img4 {height: auto; width: 100%}
     img.img5 {height: 83px; width: 87px}
@@ -34,19 +35,30 @@
     img.img8 {height: 100px; width: 542px}
     img.img9 {height: 281px; width: 182px}
     ol.ol1 {margin-left: 0rem}
-    span.s1 {font-family: 'Candara'; font-size: 1.67rem; font-weight: bold}
-    span.s10 {font-family: 'Courier New'; font-weight: bold}
-    span.s11 {font-style: normal}
-    span.s12 {background-color: #fffa91}
-    span.s13 {background-color: #ffc4a0}
-    span.s2 {font-weight: bold}
-    span.s3 {font-style: italic}
-    span.s4 {font-weight: 400}
-    span.s5 {text-decoration: underline}
-    span.s6 {background-color: #fffa91; color: #000000; font-family: 'Courier New'}
-    span.s7 {font-family: 'Courier New'}
-    span.s8 {background-color: #fffa91; font-family: 'Courier New'}
-    span.s9 {background-color: #ffc4a0; font-family: 'Courier New'}
+    span.s1 {font-family: 'Candara'; font-size: 2.33rem; font-weight: bold}
+    span.s10 {background-color: #ffc4a0; font-family: 'Courier New'}
+    span.s11 {font-family: 'Courier New'; font-weight: bold}
+    span.s12 {font-style: normal}
+    span.s13 {background-color: #fffa91}
+    span.s14 {background-color: #ffc4a0}
+    span.s15 {background-color: #ffc4a0; font-family: 'Courier New'; font-weight: bold}
+    span.s16 {background-color: #fffa91; font-weight: bold}
+    span.s17 {background-color: #fffa91; font-family: 'Courier New'; font-weight: bold}
+    span.s18 {background-color: #bdf49b; font-weight: bold}
+    span.s19 {background-color: #bdf49b; font-family: 'Courier New'; font-weight: bold}
+    span.s2 {font-family: 'Candara'; font-size: 1.67rem; font-weight: bold}
+    span.s20 {background-color: #bdf49b}
+    span.s21 {font-size: 1.17rem; font-weight: bold}
+    span.s22 {font-family: 'Courier New'; font-size: 1.17rem; font-weight: bold}
+    span.s23 {font-family: 'Sitka Text'; font-weight: 400}
+    span.s24 {font-family: 'Sitka Text'}
+    span.s3 {font-weight: bold}
+    span.s4 {font-style: italic}
+    span.s5 {font-weight: 400}
+    span.s6 {text-decoration: underline}
+    span.s7 {background-color: #fffa91; color: #000000; font-family: 'Courier New'}
+    span.s8 {font-family: 'Courier New'}
+    span.s9 {background-color: #fffa91; font-family: 'Courier New'}
     ul.ul1 {margin-left: 0rem}
     span.Scrivener-tab-span {white-space:pre}
     span.Scrivener-converted-space {white-space:pre;}
@@ -54,527 +66,834 @@
 </head>
 <body>
 <div class="div1">
-<h2 class="ps1"><a id="doc1"></a><strong><span class="s1">Laboratory Activity No. 1:</span></strong></h2>
-<h4 class="ps2"><strong><span class="s2">Laboratory Activity No. 1:</span></strong></h4>
-<p class="ps2"><strong><span class="s2">Topic</span></strong>: <strong><span class="s2">Introduction to Software Design, History, and Overview</span></strong></p>
-<p class="ps2"><strong><span class="s2">Title</span></strong>: <em><span class="s3">Setting Up the Development Environment for Django Project</span></em></p>
-<p class="ps3"><br /></p>
-<p class="ps2"><strong><span class="s2">Introduction</span></strong>: This activity will guide you through the process of setting up your development environment to start building the Library Management System (LMS) in Django. The process involves installing necessary software, setting up Python and Django, and verifying the installation.</p>
-<p class="ps3"><br /></p>
-<p class="ps2"><strong><span class="s2">Objectives</span></strong>:</p>
+<h1 class="ps1"><a id="doc1"></a><strong><span class="s1">LAB MANUAL USING DJANGO</span></strong></h1>
+<h2 class="ps2"><a id="doc2"></a><strong><span class="s2">Laboratory Activity No. 1:</span></strong></h2>
+<h4 class="ps3"><strong><span class="s3">Laboratory Activity No. 1:</span></strong></h4>
+<p class="ps3"><strong><span class="s3">Topic</span></strong>: <strong><span class="s3">Introduction to Software Design, History, and Overview</span></strong></p>
+<p class="ps3"><strong><span class="s3">Title</span></strong>: <em><span class="s4">Setting Up the Development Environment for Django Project</span></em></p>
+<p class="ps4"><br /></p>
+<p class="ps3"><strong><span class="s3">Introduction</span></strong>: This activity will guide you through the process of setting up your development environment to start building the Library Management System (LMS) in Django. The process involves installing necessary software, setting up Python and Django, and verifying the installation.</p>
+<p class="ps4"><br /></p>
+<p class="ps3"><strong><span class="s3">Objectives</span></strong>:</p>
 <ul class="ul1">
-  <li class="ps4">Install Python and Django on your system.</li>
-  <li class="ps5">Create a virtual environment to manage dependencies.</li>
-  <li class="ps6">Verify the installation by running a simple Django project.</li>
+  <li class="ps5">Install Python and Django on your system.</li>
+  <li class="ps6">Create a virtual environment to manage dependencies.</li>
+  <li class="ps7">Verify the installation by running a simple Django project.</li>
 </ul>
-<p class="ps3"><br /></p>
-<p class="ps2"><strong><span class="s2">Theory and Detailed Discussion</span></strong>: To develop the Library Management System, we will use the Django framework. Django is a high-level Python web framework that allows developers to create robust web applications quickly and efficiently. Before we can start developing, we need to set up the development environment.</p>
-<p class="ps3"><br /></p>
-<p class="ps2"><strong><span class="s2">Materials, Software, and Libraries</span></strong>:</p>
+<p class="ps4"><br /></p>
+<p class="ps3"><strong><span class="s3">Theory and Detailed Discussion</span></strong>: To develop the Library Management System, we will use the Django framework. Django is a high-level Python web framework that allows developers to create robust web applications quickly and efficiently. Before we can start developing, we need to set up the development environment.</p>
+<p class="ps4"><br /></p>
+<p class="ps3"><strong><span class="s3">Materials, Software, and Libraries</span></strong>:</p>
 <ul class="ul1">
-  <li class="ps4"><strong>Python</strong><span class="s4"> (version 3.8 or above)</span></li>
-  <li class="ps5"><strong>Django</strong><span class="s4"> (version 4.0 or above)</span></li>
-  <li class="ps5"><strong>pip</strong><span class="s4"> (Python package manager)</span></li>
-  <li class="ps5"><strong>Text Editor</strong><span class="s4"> (Visual Studio Code or PyCharm)</span></li>
-  <li class="ps6"><strong>Database</strong><span class="s4"> (SQLite – comes with Django by default)</span></li>
+  <li class="ps5"><strong>Python</strong><span class="s5"> (version 3.8 or above)</span></li>
+  <li class="ps6"><strong>Django</strong><span class="s5"> (version 4.0 or above)</span></li>
+  <li class="ps6"><strong>pip</strong><span class="s5"> (Python package manager)</span></li>
+  <li class="ps6"><strong>Text Editor</strong><span class="s5"> (Visual Studio Code or PyCharm)</span></li>
+  <li class="ps7"><strong>Database</strong><span class="s5"> (SQLite – comes with Django by default)</span></li>
 </ul>
-<p class="ps3"><br /></p>
-<p class="ps2"><strong><span class="s2">Time Frame</span></strong>: 1 Hour</p>
-<p class="ps3"><br /></p>
-<p class="ps2"><strong><span class="s2">Procedure</span></strong>:</p>
+<p class="ps4"><br /></p>
+<p class="ps3"><strong><span class="s3">Time Frame</span></strong>: 1 Hour</p>
+<p class="ps4"><br /></p>
+<p class="ps3"><strong><span class="s3">Procedure</span></strong>:</p>
 <ol class="ol1">
-  <li class="ps7"><strong>Install Python</strong><span class="s4">:</span></li>
+  <li class="ps8"><strong>Install Python</strong><span class="s5">:</span></li>
 <ul class="ul1">
-  <li class="ps5">Go to <a href="https://www.python.org/downloads/"><span class="s5">python.org</span></a> and download the latest version of Python.</li>
-  <li class="ps5">Install Python by following the installation instructions for your operating system.</li>
+  <li class="ps6">Go to <a href="https://www.python.org/downloads/"><span class="s6">python.org</span></a> and download the latest version of Python.</li>
+  <li class="ps6">Install Python by following the installation instructions for your operating system.</li>
 </ul>
-<p class="ps8"><img alt="" src="index_files/Clipboard-Image.png" class="img1" /><img alt="" src="index_files/Clipboard-Image_1.png" class="img2" /></p>
-  <li class="ps7"><strong>Install pip</strong><span class="s4"> (Python package installer):</span></li>
+<p class="ps9"><img alt="" src="index_files/Clipboard-Image.png" class="img1" /><img alt="" src="index_files/Clipboard-Image_1.png" class="img2" /></p>
+  <li class="ps8"><strong>Install pip</strong><span class="s5"> (Python package installer):</span></li>
 <ul class="ul1">
-  <li class="ps5">Open a terminal and</li>
-  <li class="ps5"><img alt="" src="index_files/Clipboard-Image_2.png" class="img3" /></li>
+  <li class="ps6">Open a terminal and</li>
+  <li class="ps6"><img alt="" src="index_files/Clipboard-Image_2.png" class="img3" /></li>
 </ul>
-<p class="ps3"><br /></p>
+<p class="ps4"><br /></p>
 <ul class="ul1">
-  <li class="ps9"> type the following command:</li>
+  <li class="ps10"> type the following command:</li>
 </ul>
-<p class="ps10"><br /></p>
-<p class="ps11"><span class="s6">python -m ensurepip --upgrade</span></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><img alt="" src="index_files/Clipboard-Image_3.png" class="img4" /></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s7">3. Create folder using your family name as the file name and Open in Visual Studio Code.</span></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s7">In desktop create</span><img alt="" src="index_files/Clipboard-Image_4.png" class="img5" /><span class="s7">(family_name) folder</span></p>
-<p class="ps11"><span class="s7"><span class="Scrivener-tab-span">	</span><span class="Scrivener-tab-span">	</span> </span></p>
-<p class="ps11"><span class="s7"><span class="Scrivener-tab-span">	</span>Open the folder</span></p>
-<p class="ps11"><span class="s7"><span class="Scrivener-tab-span">	</span>Right Click on the folder white space then Open with Code</span></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s7"><span class="Scrivener-tab-span">	</span>Or</span></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s7"><span class="Scrivener-tab-span">	</span>Open Visual Studio Code</span></p>
-<p class="ps11"><span class="s7"><span class="Scrivener-tab-span">	</span><span class="Scrivener-tab-span">	</span>&#62; File &#62; Open Folder &#62;</span></p>
-<p class="ps11"><span class="s7"><span class="Scrivener-tab-span">	</span><span class="Scrivener-tab-span">	</span><span class="Scrivener-tab-span">	</span><span class="Scrivener-tab-span">	</span><span class="Scrivener-tab-span">	</span><span class="Scrivener-tab-span">	</span><span class="Scrivener-tab-span">	</span>Select your folder</span></p>
-<p class="ps11"><span class="s7"><span class="Scrivener-tab-span"><span class="Scrivener-tab-span">	</span></span></span></p>
-<p class="ps11"><span class="s7"><span class="Scrivener-tab-span">	</span>Or</span></p>
-<p class="ps11"><span class="s7"><span class="Scrivener-tab-span"><span class="Scrivener-tab-span">	</span></span></span></p>
-<p class="ps11"><span class="s7"><span class="Scrivener-tab-span">	</span>In Terminal</span></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s7"><span class="Scrivener-tab-span">	</span>Change directory to the folder then type</span></p>
-<p class="ps11"><span class="s7"><span class="Scrivener-tab-span"><span class="Scrivener-tab-span">	</span></span></span></p>
-<p class="ps11"><span class="s7"><span class="Scrivener-tab-span"><span class="Scrivener-tab-span">	</span></span></span><span class="s8">Code .</span></p>
-<p class="ps12"><br /></p>
-  <li class="ps7"><strong>Install Virtual Environment</strong><span class="s4">:</span></li>
+<p class="ps11"><br /></p>
+<p class="ps12"><span class="s7">python -m ensurepip --upgrade</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><img alt="" src="index_files/Clipboard-Image_3.png" class="img4" /></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s8">3. Create folder using your family name as the file name and Open in Visual Studio Code.</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s8">In desktop create</span><img alt="" src="index_files/Clipboard-Image_4.png" class="img5" /><span class="s8">(family_name) folder</span></p>
+<p class="ps12"><span class="s8"><span class="Scrivener-tab-span">	</span><span class="Scrivener-tab-span">	</span> </span></p>
+<p class="ps12"><span class="s8"><span class="Scrivener-tab-span">	</span>Open the folder</span></p>
+<p class="ps12"><span class="s8"><span class="Scrivener-tab-span">	</span>Right Click on the folder white space then Open with Code</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s8"><span class="Scrivener-tab-span">	</span>Or</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s8"><span class="Scrivener-tab-span">	</span>Open Visual Studio Code</span></p>
+<p class="ps12"><span class="s8"><span class="Scrivener-tab-span">	</span><span class="Scrivener-tab-span">	</span>&#62; File &#62; Open Folder &#62;</span></p>
+<p class="ps12"><span class="s8"><span class="Scrivener-tab-span">	</span><span class="Scrivener-tab-span">	</span><span class="Scrivener-tab-span">	</span><span class="Scrivener-tab-span">	</span><span class="Scrivener-tab-span">	</span><span class="Scrivener-tab-span">	</span><span class="Scrivener-tab-span">	</span>Select your folder</span></p>
+<p class="ps12"><span class="s8"><span class="Scrivener-tab-span"><span class="Scrivener-tab-span">	</span></span></span></p>
+<p class="ps12"><span class="s8"><span class="Scrivener-tab-span">	</span>Or</span></p>
+<p class="ps12"><span class="s8"><span class="Scrivener-tab-span"><span class="Scrivener-tab-span">	</span></span></span></p>
+<p class="ps12"><span class="s8"><span class="Scrivener-tab-span">	</span>In Terminal</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s8"><span class="Scrivener-tab-span">	</span>Change directory to the folder then type</span></p>
+<p class="ps12"><span class="s8"><span class="Scrivener-tab-span"><span class="Scrivener-tab-span">	</span></span></span></p>
+<p class="ps12"><span class="s8"><span class="Scrivener-tab-span"><span class="Scrivener-tab-span">	</span></span></span><span class="s9">Code .</span></p>
+<p class="ps13"><br /></p>
+  <li class="ps8"><strong>Install Virtual Environment</strong><span class="s5">:</span></li>
 </ol></ol></ol>
-<p class="ps10"><br /></p>
+<p class="ps11"><br /></p>
 <ul class="ul1">
-  <li class="ps5">Create a virtual environment for our project to avoid conflicts with global packages.</li>
-  <li class="ps5">If the terminal is not yet open. Click the View&#62;Terminal in VSCode then type </li>
+  <li class="ps6">Create a virtual environment for our project to avoid conflicts with global packages.</li>
+  <li class="ps6">If the terminal is not yet open. Click the View&#62;Terminal in VSCode then type </li>
 </ul>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s8">pip install virtualenv </span></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><img alt="" src="index_files/Clipboard-Image_5.png" class="img6" /></p>
-<p class="ps12"><br /></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s9">pip install virtualenv </span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><img alt="" src="index_files/Clipboard-Image_5.png" class="img6" /></p>
+<p class="ps13"><br /></p>
 <ul class="ul1">
-  <li class="ps5">Create a new virtual environment:</li>
+  <li class="ps6">Create a new virtual environment:</li>
 </ul>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s8">python -m venv library_env</span></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><img alt="" src="index_files/Clipboard-Image_6.png" class="img7" /></p>
-<p class="ps12"><br /></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s9">python -m venv library_env</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><img alt="" src="index_files/Clipboard-Image_6.png" class="img7" /></p>
+<p class="ps13"><br /></p>
 <ul class="ul1">
-  <li class="ps5">Activate the virtual environment:</li>
+  <li class="ps6">Activate the virtual environment:</li>
 </ul>
 <ul class="ul1">
-  <li class="ps5">On Windows:</li>
+  <li class="ps6">On Windows:</li>
 </ul>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s8">.\library_env\Scripts\activate</span></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><img alt="" src="index_files/Clipboard-Image_7.png" class="img8" /></p>
-<p class="ps12"><br /></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s9">.\library_env\Scripts\activate</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><img alt="" src="index_files/Clipboard-Image_7.png" class="img8" /></p>
+<p class="ps13"><br /></p>
 <ul class="ul1">
-  <li class="ps5">On Mac/Linux:</li>
+  <li class="ps6">On Mac/Linux:</li>
 </ul>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s9">source library_env/bin/activate</span></p>
-<p class="ps12"><br /></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s7">If </span><strong><span class="s10">error</span></strong><span class="s7"> in virtual environment activation</span></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s7">Open windows Powershell by running as Administrator</span></p>
-<p class="ps11"><img alt="" src="index_files/Clipboard-Image_8.png" class="img9" /></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s7">Type the following code:</span></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s7">PS C:\Windows\system32&#62; </span><span class="s8">get-executionpolicy</span></p>
-<p class="ps11"><span class="s7">Restricted</span></p>
-<p class="ps12"><br /></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s7">If restricted type the code:</span></p>
-<p class="ps11"><span class="s7">PS C:\Windows\system32&#62; </span><span class="s8">set-executionpolicy remotesigned</span></p>
-<p class="ps12"><br /></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s7">Then type again the</span></p>
-<p class="ps11"><span class="s8">.\library_env\Scripts\activate</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s10">source library_env/bin/activate</span></p>
+<p class="ps13"><br /></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s8">If </span><strong><span class="s11">error</span></strong><span class="s8"> in virtual environment activation</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s8">Open windows Powershell by running as Administrator</span></p>
+<p class="ps12"><img alt="" src="index_files/Clipboard-Image_8.png" class="img9" /></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s8">Type the following code:</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s8">PS C:\Windows\system32&#62; </span><span class="s9">get-executionpolicy</span></p>
+<p class="ps12"><span class="s8">Restricted</span></p>
+<p class="ps13"><br /></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s8">If restricted type the code:</span></p>
+<p class="ps12"><span class="s8">PS C:\Windows\system32&#62; </span><span class="s9">set-executionpolicy remotesigned</span></p>
+<p class="ps13"><br /></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s8">Then type again the</span></p>
+<p class="ps12"><span class="s9">.\library_env\Scripts\activate</span></p>
 <ol class="ol1">
-  <li class="ps7"><strong>Install Django</strong><span class="s4">:</span></li>
+  <li class="ps8"><strong>Install Django</strong><span class="s5">:</span></li>
 <ul class="ul1">
-  <li class="ps5">After activating the virtual environment, install Django by running:</li>
+  <li class="ps6">After activating the virtual environment, install Django by running:</li>
 </ul>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s8">pip install django</span></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><img alt="" src="index_files/Clipboard-Image_9.png" class="img10" /></p>
-  <li class="ps7"><strong>Verify the Django Installation</strong><span class="s4">:</span></li>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s9">pip install django</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><img alt="" src="index_files/Clipboard-Image_9.png" class="img10" /></p>
+  <li class="ps8"><strong>Verify the Django Installation</strong><span class="s5">:</span></li>
 <ul class="ul1">
-  <li class="ps5">Run the following command to verify if Django is installed:</li>
+  <li class="ps6">Run the following command to verify if Django is installed:</li>
 </ul>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s8">django-admin --version</span></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><img alt="" src="index_files/Clipboard-Image_10.png" class="img11" /></p>
-  <li class="ps7"><strong>Create a New Django Project</strong><span class="s4">:</span></li>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s9">django-admin --version</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><img alt="" src="index_files/Clipboard-Image_10.png" class="img11" /></p>
+  <li class="ps8"><strong>Create a New Django Project</strong><span class="s5">:</span></li>
 <ul class="ul1">
-  <li class="ps5">Create a new Django project called &#34;library_system&#34;:</li>
+  <li class="ps6">Create a new Django project called &#34;library_system&#34;:</li>
 </ul>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s8">django-admin startproject library_system</span></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><img alt="" src="index_files/Clipboard-Image_11.png" class="img12" /></p>
-<p class="ps11"><img alt="" src="index_files/Clipboard-Image_12.png" class="img13" /></p>
-<p class="ps12"><br /></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s9">django-admin startproject library_system</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><img alt="" src="index_files/Clipboard-Image_11.png" class="img12" /></p>
+<p class="ps12"><img alt="" src="index_files/Clipboard-Image_12.png" class="img13" /></p>
+<p class="ps13"><br /></p>
 <ul class="ul1">
-  <li class="ps5"><em>Rename</em><span class="s11"> library_system to </span><em><span class="s12">library_root</span></em></li>
+  <li class="ps6"><em>Rename</em><span class="s12"> library_system to </span><em><span class="s13">library_root</span></em></li>
 </ul></ol></ol></ol></ol>
-<p class="ps8">The Tree View Directory should look like this:</p>
-<p class="ps11"><span class="s7"><span class="Scrivener-tab-span">	</span>library_root &#62; library_system</span></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><img alt="" src="index_files/Clipboard-Image_13.png" class="img14" /></p>
-<p class="ps12"><br /></p>
+<p class="ps9">The Tree View Directory should look like this:</p>
+<p class="ps12"><span class="s8"><span class="Scrivener-tab-span">	</span>library_root &#62; library_system</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><img alt="" src="index_files/Clipboard-Image_13.png" class="img14" /></p>
+<p class="ps13"><br /></p>
 <ul class="ul1">
-  <li class="ps5">Navigate into the project directory:</li>
+  <li class="ps6">Navigate into the project directory:</li>
 </ul>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s8">cd library_root</span></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><img alt="" src="index_files/Clipboard-Image_14.png" class="img4" /></p>
-<p class="ps12"><br /></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s9">cd library_root</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><img alt="" src="index_files/Clipboard-Image_14.png" class="img4" /></p>
+<p class="ps13"><br /></p>
 <ol class="ol1">
-  <li class="ps7"><strong>Run the Django Development Server</strong><span class="s4">:</span></li>
+  <li class="ps8"><strong>Run the Django Development Server</strong><span class="s5">:</span></li>
 </ol>
 <ul class="ul1">
-  <li class="ps5">Start the development server to verify everything is working:</li>
+  <li class="ps6">Start the development server to verify everything is working:</li>
 </ul>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s8">python manage.py runserver</span></p>
-<p class="ps11"><img alt="" src="index_files/Clipboard-Image_15.png" class="img4" /></p>
-<p class="ps12"><br /></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s9">python manage.py runserver</span></p>
+<p class="ps12"><img alt="" src="index_files/Clipboard-Image_15.png" class="img4" /></p>
+<p class="ps13"><br /></p>
 <ul class="ul1">
-  <li class="ps5">Open a browser and go to <span class="s7">http://127.0.0.1:8000/</span>. You should see the Django welcome page.</li>
+  <li class="ps6">Open a browser and go to <span class="s8">http://127.0.0.1:8000/</span>. You should see the Django welcome page.</li>
 </ul>
-<p class="ps11"><img alt="" src="index_files/Clipboard-Image_16.png" class="img4" /></p>
-<p class="ps2"><strong><span class="s2">Program/Code</span></strong>: The code here is focused on setting up the environment. The following commands should be run in the terminal:</p>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s7">python -m venv library_env</span></p>
-<p class="ps11"><span class="s7">source library_env/bin/activate <span class="Scrivener-converted-space"> </span># or .\library_env\Scripts\activate on Windows</span></p>
-<p class="ps11"><span class="s7">pip install django</span></p>
-<p class="ps11"><span class="s7">django-admin startproject library_system</span></p>
-<p class="ps11"><span class="s7">cd library_system</span></p>
-<p class="ps11"><span class="s7">python manage.py runserver</span></p>
-<p class="ps12"><br /></p>
-<p class="ps3"><br /></p>
-<p class="ps2"><strong><span class="s2">Results</span></strong>: (print screen the result and provide the github link of your work)</p>
+<p class="ps12"><img alt="" src="index_files/Clipboard-Image_16.png" class="img4" /></p>
+<p class="ps3"><strong><span class="s3">Program/Code</span></strong>: The code here is focused on setting up the environment. The following commands should be run in the terminal:</p>
 <p class="ps13"><br /></p>
+<p class="ps12"><span class="s8">python -m venv library_env</span></p>
+<p class="ps12"><span class="s8">source library_env/bin/activate <span class="Scrivener-converted-space"> </span># or .\library_env\Scripts\activate on Windows</span></p>
+<p class="ps12"><span class="s8">pip install django</span></p>
+<p class="ps12"><span class="s8">django-admin startproject library_system</span></p>
+<p class="ps12"><span class="s8">cd library_system</span></p>
+<p class="ps12"><span class="s8">python manage.py runserver</span></p>
 <p class="ps13"><br /></p>
-<p class="ps3"><br /></p>
-<p class="ps2"><strong><span class="s2">Follow-Up Questions</span></strong>:</p>
+<p class="ps4"><br /></p>
+<p class="ps3"><strong><span class="s3">Results</span></strong>: (print screen the result and provide the github link of your work)</p>
+<p class="ps14"><br /></p>
+<p class="ps14"><br /></p>
+<p class="ps4"><br /></p>
+<p class="ps3"><strong><span class="s3">Follow-Up Questions</span></strong>:</p>
 <ol class="ol1">
-  <li class="ps4">What is the role of a virtual environment in Django development?</li>
+  <li class="ps5">What is the role of a virtual environment in Django development?</li>
 </ol>
-<p class="ps14"><br /></p>
-<p class="ps14"><br /></p>
-<p class="ps14"><br /></p>
-<ol class="ol1">
-  <li class="ps6">What are the advantages of using Django for web development over other frameworks?</li>
-</ol>
-<p class="ps14"><br /></p>
-<p class="ps14"><br /></p>
-<p class="ps3"><br /></p>
-<p class="ps2"><strong><span class="s2">Findings</span></strong>: </p>
-<p class="ps13"><br /></p>
-<p class="ps3"><br /></p>
-<p class="ps2"><strong><span class="s2">Summary</span></strong>: </p>
-<p class="ps13"><br /></p>
-<p class="ps3"><br /></p>
-<p class="ps2"><strong><span class="s2">Conclusion</span></strong>: </p>
-<p class="ps13"><br /></p>
-<p class="ps13"><br /></p>
-<h2 class="ps1"><a id="doc2"></a><strong><span class="s1">Laboratory Activity No. 2:</span></strong></h2>
-<h4 class="ps2"><strong><span class="s2">Laboratory Activity No. 2:</span></strong></h4>
-<p class="ps2"><strong><span class="s2">Topic belongs to</span></strong>: <strong><span class="s2">Software Design and Database Systems</span></strong></p>
-<p class="ps2"><strong><span class="s2">Title</span></strong>: <em><span class="s3">Designing the Database Schema for the Library Management System</span></em></p>
-<p class="ps2"><strong><span class="s2">Introduction</span></strong>: In this activity, you will design the database schema for the Library Management System. The database will include tables for books, authors, users, and borrowing records. You will also learn how to use Django’s ORM (Object-Relational Mapping) to define the models.</p>
-<p class="ps2"><strong><span class="s2">Objectives</span></strong>:</p>
-<ul class="ul1">
-  <li class="ps4">Design the database schema for the Library Management System.</li>
-  <li class="ps5">Create Django models to represent the schema.</li>
-  <li class="ps6">Use Django’s ORM to interact with the database.</li>
-</ul>
-<p class="ps3"><br /></p>
-<p class="ps2"><strong><span class="s2">Theory and Detailed Discussion</span></strong>: Django uses an ORM (Object-Relational Mapping) system to map Python objects to database tables. By defining models in Python code, Django automatically creates the corresponding database tables. We will start by designing the database schema with the necessary relationships between entities like books, authors, and users.</p>
-<p class="ps3"><br /></p>
-<p class="ps2"><strong><span class="s2">Materials, Software, and Libraries</span></strong>:</p>
-<ul class="ul1">
-  <li class="ps4"><strong>Django</strong><span class="s4"> framework</span></li>
-  <li class="ps6"><strong>SQLite</strong><span class="s4"> database (default in Django)</span></li>
-</ul>
-<p class="ps3"><br /></p>
-<p class="ps2"><strong><span class="s2">Time Frame</span></strong>: 2 Hours</p>
-<p class="ps3"><br /></p>
-<p class="ps2"><strong><span class="s2">Procedure</span></strong>:</p>
-<ol class="ol1">
-  <li class="ps7"><strong>Create Django Apps</strong><span class="s4">:</span></li>
-<ul class="ul1">
-  <li class="ps5">In Django, an app is a module that handles a specific functionality. To keep things modular, we will create two apps: one for managing books and another for managing users. </li>
-  <li class="ps5">Make sure that your are inside the <em><span class="s3">library_root</span></em> directory</li>
-</ul>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s8">python manage.py startapp books</span></p>
-<p class="ps11"><span class="s8">python manage.py startapp users</span></p>
-<p class="ps11"><img alt="" src="index_files/Clipboard-Image_17.png" class="img4" /></p>
-<p class="ps11"><img alt="" src="index_files/Clipboard-Image_18.png" class="img15" /></p>
-<p class="ps12"><br /></p>
-<p class="ps7"><strong><span class="s2">2. Register the Apps in Settings.py</span></strong></p>
-<p class="ps7">Under library_root directory open<span class="s13"> library_system&#62;settings.py</span> then add the books and users application under the INSTALLED_APPS</p>
-<p class="ps5"><img alt="" src="index_files/Clipboard-Image_19.png" class="img16" /></p>
 <p class="ps15"><br /></p>
-<p class="ps7"><strong><span class="s2">3. Define Models for the Books App</span></strong>:</p>
-<ul class="ul1">
-  <li class="ps5">Open the <span class="s7">books/models.py</span> file and define the following models:</li>
-</ul>
+<p class="ps15"><br /></p>
+<p class="ps15"><br /></p>
+<ol class="ol1">
+  <li class="ps7">What are the advantages of using Django for web development over other frameworks?</li>
+</ol>
+<p class="ps15"><br /></p>
+<p class="ps15"><br /></p>
+<p class="ps4"><br /></p>
+<p class="ps3"><strong><span class="s3">Findings</span></strong>: </p>
 <p class="ps14"><br /></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s8">from django.db import models</span></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s8">class Author(models.Model):</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">   </span>name = models.CharField(max_length=100)</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">   </span>birth_date = models.DateField()</span></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">   </span>def __str__(self):</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">       </span>return self.name</span></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s8">class Book(models.Model):</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">   </span>title = models.CharField(max_length=200)</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">   </span>author = models.ForeignKey(Author, on_delete=models.CASCADE)</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">   </span>isbn = models.CharField(max_length=13)</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">   </span>publish_date = models.DateField()</span></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">   </span>def __str__(self):</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">       </span>return self.title</span></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><img alt="" src="index_files/Clipboard-Image_20.png" class="img4" /></p>
-  <li class="ps7"><strong>Define Models for the Users App</strong><span class="s4">:</span></li>
+<p class="ps4"><br /></p>
+<p class="ps3"><strong><span class="s3">Summary</span></strong>: </p>
+<p class="ps14"><br /></p>
+<p class="ps4"><br /></p>
+<p class="ps3"><strong><span class="s3">Conclusion</span></strong>: </p>
+<p class="ps14"><br /></p>
+<p class="ps14"><br /></p>
+<h2 class="ps2"><a id="doc3"></a><strong><span class="s2">Laboratory Activity No. 2:</span></strong></h2>
+<h4 class="ps3"><strong><span class="s3">Laboratory Activity No. 2:</span></strong></h4>
+<p class="ps3"><strong><span class="s3">Topic belongs to</span></strong>: <strong><span class="s3">Software Design and Database Systems</span></strong></p>
+<p class="ps3"><strong><span class="s3">Title</span></strong>: <em><span class="s4">Designing the Database Schema for the Library Management System</span></em></p>
+<p class="ps3"><strong><span class="s3">Introduction</span></strong>: In this activity, you will design the database schema for the Library Management System. The database will include tables for books, authors, users, and borrowing records. You will also learn how to use Django’s ORM (Object-Relational Mapping) to define the models.</p>
+<p class="ps3"><strong><span class="s3">Objectives</span></strong>:</p>
 <ul class="ul1">
-  <li class="ps5">Open the <span class="s7">users/models.py</span> file and define the following models:</li>
+  <li class="ps5">Design the database schema for the Library Management System.</li>
+  <li class="ps6">Create Django models to represent the schema.</li>
+  <li class="ps7">Use Django’s ORM to interact with the database.</li>
 </ul>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s8">from django.db import models</span></p>
-<p class="ps11"><span class="s8">from books.models import Book</span></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s8">class User(models.Model):</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">   </span>username = models.CharField(max_length=100)</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">   </span>email = models.EmailField()</span></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">   </span>def __str__(self):</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">       </span>return self.username</span></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s8">class BorrowRecord(models.Model):</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">   </span>user = models.ForeignKey(User, on_delete=models.CASCADE)</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">   </span>book = models.ForeignKey(Book, on_delete=models.CASCADE)</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">   </span>borrow_date = models.DateField()</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">   </span>return_date = models.DateField(null=True, blank=True)</span></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><img alt="" src="index_files/Clipboard-Image_21.png" class="img4" /></p>
-  <li class="ps7"><strong>Apply Migrations</strong><span class="s4">:</span></li>
+<p class="ps4"><br /></p>
+<p class="ps3"><strong><span class="s3">Theory and Detailed Discussion</span></strong>: Django uses an ORM (Object-Relational Mapping) system to map Python objects to database tables. By defining models in Python code, Django automatically creates the corresponding database tables. We will start by designing the database schema with the necessary relationships between entities like books, authors, and users.</p>
+<p class="ps4"><br /></p>
+<p class="ps3"><strong><span class="s3">Materials, Software, and Libraries</span></strong>:</p>
 <ul class="ul1">
-  <li class="ps5">To create the database tables based on the models, run the following commands:</li>
+  <li class="ps5"><strong>Django</strong><span class="s5"> framework</span></li>
+  <li class="ps7"><strong>SQLite</strong><span class="s5"> database (default in Django)</span></li>
 </ul>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s8">python manage.py makemigrations</span></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><img alt="" src="index_files/Clipboard-Image_22.png" class="img4" /></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s8">python manage.py migrate</span></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><img alt="" src="index_files/Clipboard-Image_23.png" class="img17" /></p>
-<p class="ps12"><br /></p>
-  <li class="ps7"><strong>Create Superuser for Admin Panel</strong><span class="s4">:</span></li>
+<p class="ps4"><br /></p>
+<p class="ps3"><strong><span class="s3">Time Frame</span></strong>: 2 Hours</p>
+<p class="ps4"><br /></p>
+<p class="ps3"><strong><span class="s3">Procedure</span></strong>:</p>
+<ol class="ol1">
+  <li class="ps8"><strong>Create Django Apps</strong><span class="s5">:</span></li>
 <ul class="ul1">
-  <li class="ps5">Create a superuser to access the Django admin panel:</li>
+  <li class="ps6">In Django, an app is a module that handles a specific functionality. To keep things modular, we will create two apps: one for managing books and another for managing users. </li>
+  <li class="ps6">Make sure that your are inside the <em><span class="s4">library_root</span></em> directory</li>
 </ul>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s8">python manage.py createsuperuser</span></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s7">Note: The password won’t show when you type it.</span></p>
-<p class="ps11"><img alt="" src="index_files/Clipboard-Image_24.png" class="img4" /></p>
-  <li class="ps7"><strong>Register Models in Admin Panel</strong><span class="s4">:</span></li>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s9">python manage.py startapp books</span></p>
+<p class="ps12"><span class="s9">python manage.py startapp users</span></p>
+<p class="ps12"><img alt="" src="index_files/Clipboard-Image_17.png" class="img4" /></p>
+<p class="ps12"><img alt="" src="index_files/Clipboard-Image_18.png" class="img15" /></p>
+<p class="ps13"><br /></p>
+<p class="ps8"><strong><span class="s3">2. Register the Apps in Settings.py</span></strong></p>
+<p class="ps8">Under library_root directory open<span class="s14"> library_system&#62;settings.py</span> then add the books and users application under the INSTALLED_APPS</p>
+<p class="ps6"><img alt="" src="index_files/Clipboard-Image_19.png" class="img16" /></p>
+<p class="ps16"><br /></p>
+<p class="ps8"><strong><span class="s3">3. Define Models for the Books App</span></strong>:</p>
 <ul class="ul1">
-  <li class="ps5">In <span class="s7">books/admin.py</span>, register the <span class="s7">Author</span> and <span class="s7">Book</span> models:</li>
+  <li class="ps6">Open the <span class="s8">books/models.py</span> file and define the following models:</li>
 </ul>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s8">from django.contrib import admin</span></p>
-<p class="ps11"><span class="s8">from .models import Author, Book</span></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s8">admin.site.register(Author)</span></p>
-<p class="ps11"><span class="s8">admin.site.register(Book)</span></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><img alt="" src="index_files/Clipboard-Image_25.png" class="img18" /></p>
-<p class="ps12"><br /></p>
+<p class="ps15"><br /></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s9">from django.db import models</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s9">class Author(models.Model):</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">   </span>name = models.CharField(max_length=100)</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">   </span>birth_date = models.DateField()</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">   </span>def __str__(self):</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">       </span>return self.name</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s9">class Book(models.Model):</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">   </span>title = models.CharField(max_length=200)</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">   </span>author = models.ForeignKey(Author, on_delete=models.CASCADE)</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">   </span>isbn = models.CharField(max_length=13)</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">   </span>publish_date = models.DateField()</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">   </span>def __str__(self):</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">       </span>return self.title</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><img alt="" src="index_files/Clipboard-Image_20.png" class="img4" /></p>
+  <li class="ps8"><strong>Define Models for the Users App</strong><span class="s5">:</span></li>
 <ul class="ul1">
-  <li class="ps5">In <span class="s7">users/admin.py</span>, register the <span class="s7">User</span> and <span class="s7">BorrowRecord</span> models:</li>
+  <li class="ps6">Open the <span class="s8">users/models.py</span> file and define the following models:</li>
 </ul>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s7">from django.contrib import admin</span></p>
-<p class="ps11"><span class="s7">from .models import User, BorrowRecord</span></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s7">admin.site.register(User)</span></p>
-<p class="ps11"><span class="s7">admin.site.register(BorrowRecord)</span></p>
-<p class="ps11"><img alt="" src="index_files/Clipboard-Image_26.png" class="img19" /></p>
-  <li class="ps7"><strong>Run the Development Server</strong><span class="s4">:</span></li>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s9">from django.db import models</span></p>
+<p class="ps12"><span class="s9">from books.models import Book</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s9">class User(models.Model):</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">   </span>username = models.CharField(max_length=100)</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">   </span>email = models.EmailField()</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">   </span>def __str__(self):</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">       </span>return self.username</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s9">class BorrowRecord(models.Model):</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">   </span>user = models.ForeignKey(User, on_delete=models.CASCADE)</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">   </span>book = models.ForeignKey(Book, on_delete=models.CASCADE)</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">   </span>borrow_date = models.DateField()</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">   </span>return_date = models.DateField(null=True, blank=True)</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><img alt="" src="index_files/Clipboard-Image_21.png" class="img4" /></p>
+  <li class="ps8"><strong>Apply Migrations</strong><span class="s5">:</span></li>
 <ul class="ul1">
-  <li class="ps5">Start the server again to access the Django admin panel:</li>
+  <li class="ps6">To create the database tables based on the models, run the following commands:</li>
 </ul>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s8">python manage.py runserver</span></p>
-<p class="ps12"><br /></p>
-  <li class="ps7"><strong>Access Admin Panel</strong><span class="s4">:</span></li>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s9">python manage.py makemigrations</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><img alt="" src="index_files/Clipboard-Image_22.png" class="img4" /></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s9">python manage.py migrate</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><img alt="" src="index_files/Clipboard-Image_23.png" class="img17" /></p>
+<p class="ps13"><br /></p>
+  <li class="ps8"><strong>Create Superuser for Admin Panel</strong><span class="s5">:</span></li>
+<ul class="ul1">
+  <li class="ps6">Create a superuser to access the Django admin panel:</li>
+</ul>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s9">python manage.py createsuperuser</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s8">Note: The password won’t show when you type it.</span></p>
+<p class="ps12"><img alt="" src="index_files/Clipboard-Image_24.png" class="img4" /></p>
+  <li class="ps8"><strong>Register Models in Admin Panel</strong><span class="s5">:</span></li>
+<ul class="ul1">
+  <li class="ps6">In <span class="s8">books/admin.py</span>, register the <span class="s8">Author</span> and <span class="s8">Book</span> models:</li>
+</ul>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s9">from django.contrib import admin</span></p>
+<p class="ps12"><span class="s9">from .models import Author, Book</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s9">admin.site.register(Author)</span></p>
+<p class="ps12"><span class="s9">admin.site.register(Book)</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><img alt="" src="index_files/Clipboard-Image_25.png" class="img18" /></p>
+<p class="ps13"><br /></p>
+<ul class="ul1">
+  <li class="ps6">In <span class="s8">users/admin.py</span>, register the <span class="s8">User</span> and <span class="s8">BorrowRecord</span> models:</li>
+</ul>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s8">from django.contrib import admin</span></p>
+<p class="ps12"><span class="s8">from .models import User, BorrowRecord</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s8">admin.site.register(User)</span></p>
+<p class="ps12"><span class="s8">admin.site.register(BorrowRecord)</span></p>
+<p class="ps12"><img alt="" src="index_files/Clipboard-Image_26.png" class="img19" /></p>
+  <li class="ps8"><strong>Run the Development Server</strong><span class="s5">:</span></li>
+<ul class="ul1">
+  <li class="ps6">Start the server again to access the Django admin panel:</li>
+</ul>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s9">python manage.py runserver</span></p>
+<p class="ps13"><br /></p>
+  <li class="ps8"><strong>Access Admin Panel</strong><span class="s5">:</span></li>
 </ol>
 <ul class="ul1">
-  <li class="ps5">Open a browser and go to <span class="s8">http://127.0.0.1:8000/admin</span> and log in using the superuser credentials. You should see the <span class="s7">Author</span>, <span class="s7">Book</span>, <span class="s7">User</span>, and <span class="s7">BorrowRecord</span> models.</li>
-  <li class="ps10"><br /></li>
+  <li class="ps6">Open a browser and go to <span class="s9">http://127.0.0.1:8000/admin</span> and log in using the superuser credentials. You should see the <span class="s8">Author</span>, <span class="s8">Book</span>, <span class="s8">User</span>, and <span class="s8">BorrowRecord</span> models.</li>
+  <li class="ps11"><br /></li>
 </ul>
-<p class="ps8"><img alt="" src="index_files/Clipboard-Image_27.png" class="img4" /></p>
-<p class="ps3"><br /></p>
-<p class="ps2"><strong><span class="s2">Django Program or Code</span></strong>: Write down the summary of the code for models that has <span class="Scrivener-converted-space"> </span>been provided in this activity.</p>
-<p class="ps13"><br /></p>
-<p class="ps13"><br /></p>
-<p class="ps13"><br /></p>
-<p class="ps13"><br /></p>
-<p class="ps3"><br /></p>
-<p class="ps2"><strong><span class="s2">Results</span></strong>: By the end of this activity, you will have successfully defined the database schema using Django models, created the corresponding database tables, and registered the models in the admin panel. (print screen the result and provide the github link of your work)</p>
-<p class="ps13"><br /></p>
-<p class="ps13"><br /></p>
-<p class="ps13"><br /></p>
-<p class="ps3"><br /></p>
-<p class="ps2"><strong><span class="s2">Follow-Up Questions</span></strong>:</p>
+<p class="ps9"><img alt="" src="index_files/Clipboard-Image_27.png" class="img4" /></p>
+<p class="ps4"><br /></p>
+<p class="ps3"><strong><span class="s3">Django Program or Code</span></strong>: Write down the summary of the code for models that has <span class="Scrivener-converted-space"> </span>been provided in this activity.</p>
+<p class="ps14"><br /></p>
+<p class="ps14"><br /></p>
+<p class="ps14"><br /></p>
+<p class="ps14"><br /></p>
+<p class="ps4"><br /></p>
+<p class="ps3"><strong><span class="s3">Results</span></strong>: By the end of this activity, you will have successfully defined the database schema using Django models, created the corresponding database tables, and registered the models in the admin panel. (print screen the result and provide the github link of your work)</p>
+<p class="ps14"><br /></p>
+<p class="ps14"><br /></p>
+<p class="ps14"><br /></p>
+<p class="ps4"><br /></p>
+<p class="ps3"><strong><span class="s3">Follow-Up Questions</span></strong>:</p>
 <ol class="ol1">
-  <li class="ps4">What is the purpose of using ForeignKey in Django models?</li>
+  <li class="ps5">What is the purpose of using ForeignKey in Django models?</li>
 </ol></ol></ol></ol></ol></ol></ol>
-<p class="ps14"><br /></p>
-<p class="ps14"><br /></p>
-<p class="ps14"><br /></p>
+<p class="ps15"><br /></p>
+<p class="ps15"><br /></p>
+<p class="ps15"><br /></p>
 <ol class="ol1">
-  <li class="ps6">How does Django’s ORM simplify database interaction?</li>
+  <li class="ps7">How does Django’s ORM simplify database interaction?</li>
 </ol>
+<p class="ps15"><br /></p>
+<p class="ps15"><br /></p>
+<p class="ps4"><br /></p>
+<p class="ps3"><strong><span class="s3">Findings</span></strong>: </p>
 <p class="ps14"><br /></p>
 <p class="ps14"><br /></p>
-<p class="ps3"><br /></p>
-<p class="ps2"><strong><span class="s2">Findings</span></strong>: </p>
-<p class="ps13"><br /></p>
-<p class="ps13"><br /></p>
-<p class="ps3"><br /></p>
-<p class="ps2"><strong><span class="s2">Summary</span></strong>: </p>
-<p class="ps13"><br /></p>
-<p class="ps13"><br /></p>
-<p class="ps3"><br /></p>
-<p class="ps2"><strong><span class="s2">Conclusion</span></strong>: </p>
-<p class="ps13"><br /></p>
-<p class="ps13"><br /></p>
-<p class="ps13"><br /></p>
-<h2 class="ps1"><a id="doc3"></a><strong><span class="s1">Laboratory Activity No. 3:</span></strong></h2>
-<p class="ps2"><strong><span class="s2">Topic belongs to:</span></strong> Programming Constructs and Paradigms<br /><strong><span class="s2">Title:</span></strong> Implementing CRUD Operations for Books and Users in the Library Management System<br /><strong><span class="s2">Introduction:</span></strong><br />This activity involves implementing CRUD (Create, Read, Update, Delete) operations for books and users in the Library Management System. You will create views and forms to handle these operations via a web interface.</p>
-<p class="ps2"><strong><span class="s2">Objectives:</span></strong></p>
+<p class="ps4"><br /></p>
+<p class="ps3"><strong><span class="s3">Summary</span></strong>: </p>
+<p class="ps14"><br /></p>
+<p class="ps14"><br /></p>
+<p class="ps4"><br /></p>
+<p class="ps3"><strong><span class="s3">Conclusion</span></strong>: </p>
+<p class="ps14"><br /></p>
+<p class="ps14"><br /></p>
+<p class="ps14"><br /></p>
+<h2 class="ps2"><a id="doc4"></a><strong><span class="s2">Laboratory Activity No. 3:</span></strong></h2>
+<p class="ps3"><strong><span class="s3">Topic belongs to:</span></strong> Programming Constructs and Paradigms<br /><strong><span class="s3">Title:</span></strong> Implementing CRUD Operations for Books and Users in the Library Management System<br /><strong><span class="s3">Introduction:</span></strong><br />This activity involves implementing CRUD (Create, Read, Update, Delete) operations for books and users in the Library Management System. You will create views and forms to handle these operations via a web interface.</p>
+<p class="ps3"><strong><span class="s3">Objectives:</span></strong></p>
 <ul class="ul1">
-  <li class="ps4">Create views for CRUD operations.</li>
-  <li class="ps5">Use Django forms to manage user input.</li>
-  <li class="ps6">Learn about Django’s URL routing for view handling.</li>
+  <li class="ps5">Create views for CRUD operations.</li>
+  <li class="ps6">Use Django forms to manage user input.</li>
+  <li class="ps7">Learn about Django’s URL routing for view handling.</li>
 </ul>
-<p class="ps2"><strong><span class="s2">Theory and Detailed Discussion:</span></strong><br />CRUD operations are the fundamental actions in any database-driven application. Django's views and forms make it easy to manage the interaction between the user and the database. Using Django’s URL routing system, we can map different actions (like creating or updating data) to specific views.</p>
-<p class="ps2"><strong><span class="s2">Materials, Software, and Libraries:</span></strong></p>
+<p class="ps3"><strong><span class="s3">Theory and Detailed Discussion:</span></strong><br />CRUD operations are the fundamental actions in any database-driven application. Django's views and forms make it easy to manage the interaction between the user and the database. Using Django’s URL routing system, we can map different actions (like creating or updating data) to specific views.</p>
+<p class="ps3"><strong><span class="s3">Materials, Software, and Libraries:</span></strong></p>
 <ul class="ul1">
-  <li class="ps4">Django Framework</li>
-  <li class="ps6">SQLite (or any database you are using)</li>
+  <li class="ps5">Django Framework</li>
+  <li class="ps7">SQLite (or any database you are using)</li>
 </ul>
-<p class="ps2"><strong><span class="s2">Time Frame:</span></strong><br />2 hours</p>
-<p class="ps2"><strong><span class="s2">Step by Step Procedure:</span></strong></p>
+<p class="ps3"><strong><span class="s3">Time Frame:</span></strong><br />2 hours</p>
+<p class="ps3"><strong><span class="s3">Step by Step Procedure:</span></strong></p>
 <ol class="ol1">
-  <li class="ps7">Create views for handling CRUD operations:</li>
+  <li class="ps8">Create views for handling CRUD operations:</li>
 <ul class="ul1">
-  <li class="ps5">Open <span class="s7">books/views.py</span> and add the following views:</li>
+  <li class="ps6">Open <span class="s8">books/views.py</span> and add the following views:</li>
 </ul>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s8">from django.shortcuts import render, redirect</span></p>
-<p class="ps11"><span class="s8">from .models import Book</span></p>
-<p class="ps11"><span class="s8">from .forms import BookForm</span></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s8">def book_list(request):</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">   </span>books = Book.objects.all()</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">   </span>return render(request, 'books/book_list.html', {'books': books})</span></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s8">def book_create(request):</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">   </span>if request.method == 'POST':</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">       </span>form = BookForm(request.POST)</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">       </span>if form.is_valid():</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">           </span>form.save()</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">           </span>return redirect('book_list')</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">   </span>else:</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">       </span>form = BookForm()</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">   </span>return render(request, 'books/book_form.html', {'form': form})</span></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s8">def book_update(request, pk):</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">   </span>book = Book.objects.get(pk=pk)</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">   </span>if request.method == 'POST':</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">       </span>form = BookForm(request.POST, instance=book)</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">       </span>if form.is_valid():</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">           </span>form.save()</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">           </span>return redirect('book_list')</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">   </span>else:</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">       </span>form = BookForm(instance=book)</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">   </span>return render(request, 'books/book_form.html', {'form': form})</span></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s8">def book_delete(request, pk):</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">   </span>book = Book.objects.get(pk=pk)</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">   </span>if request.method == 'POST':</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">       </span>book.delete()</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">       </span>return redirect('book_list')</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">   </span>return render(request, 'books/book_confirm_delete.html', {'book': book})</span></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><img alt="" src="index_files/Clipboard-Image_28.png" class="img4" /></p>
-  <li class="ps7">Create a <span class="s7">BookForm</span> in <span class="s7">books/forms.py</span>:</li>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s9">from django.shortcuts import render, redirect</span></p>
+<p class="ps12"><span class="s9">from .models import Book</span></p>
+<p class="ps12"><span class="s9">from .forms import BookForm</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s9">def book_list(request):</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">   </span>books = Book.objects.all()</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">   </span>return render(request, 'books/book_list.html', {'books': books})</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s9">def book_create(request):</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">   </span>if request.method == 'POST':</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">       </span>form = BookForm(request.POST)</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">       </span>if form.is_valid():</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">           </span>form.save()</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">           </span>return redirect('book_list')</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">   </span>else:</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">       </span>form = BookForm()</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">   </span>return render(request, 'books/book_form.html', {'form': form})</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s9">def book_update(request, pk):</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">   </span>book = Book.objects.get(pk=pk)</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">   </span>if request.method == 'POST':</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">       </span>form = BookForm(request.POST, instance=book)</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">       </span>if form.is_valid():</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">           </span>form.save()</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">           </span>return redirect('book_list')</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">   </span>else:</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">       </span>form = BookForm(instance=book)</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">   </span>return render(request, 'books/book_form.html', {'form': form})</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s9">def book_delete(request, pk):</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">   </span>book = Book.objects.get(pk=pk)</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">   </span>if request.method == 'POST':</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">       </span>book.delete()</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">       </span>return redirect('book_list')</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">   </span>return render(request, 'books/book_confirm_delete.html', {'book': book})</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><img alt="" src="index_files/Clipboard-Image_28.png" class="img4" /></p>
+  <li class="ps8">Create a <span class="s8">BookForm</span> in <span class="s8">books/forms.py</span>:</li>
 </ol></ol>
-<p class="ps16">Create first the forms.py then inside of it past the code.</p>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s8">from django import forms</span></p>
-<p class="ps11"><span class="s8">from .models import Book</span></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s8">class BookForm(forms.ModelForm):</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">   </span>class Meta:</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">       </span>model = Book</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">       </span>fields = ['title', 'author', 'isbn', 'publish_date']</span></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><img alt="" src="index_files/Clipboard-Image_29.png" class="img20" /><img alt="" src="index_files/Clipboard-Image_30.png" class="img4" /></p>
-<p class="ps12"><br /></p>
+<p class="ps9">Create first the forms.py then inside of it past the code.</p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s9">from django import forms</span></p>
+<p class="ps12"><span class="s9">from .models import Book</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s9">class BookForm(forms.ModelForm):</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">   </span>class Meta:</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">       </span>model = Book</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">       </span>fields = ['title', 'author', 'isbn', 'publish_date']</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><img alt="" src="index_files/Clipboard-Image_29.png" class="img20" /><img alt="" src="index_files/Clipboard-Image_30.png" class="img4" /></p>
+<p class="ps13"><br /></p>
 <ol class="ol1">
-  <li class="ps7">Define the URLs for the views in <span class="s7">books/urls.py</span>:</li>
+  <li class="ps8">Define the URLs for the views in <span class="s8">books/urls.py</span>:</li>
 </ol>
-<p class="ps16">Under the urls.py</p>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s8">from django.urls import path</span></p>
-<p class="ps11"><span class="s8">from . import views</span></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s8">urlpatterns = [</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">   </span>path('', views.book_list, name='book_list'),</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">   </span>path('create/', views.book_create, name='book_create'),</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">   </span>path('update/&#60;int:pk&#62;/', views.book_update, name='book_update'),</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">   </span>path('delete/&#60;int:pk&#62;/', views.book_delete, name='book_delete'),</span></p>
-<p class="ps11"><span class="s8">]</span></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><img alt="" src="index_files/Clipboard-Image_31.png" class="img4" /></p>
-<p class="ps11"><img alt="" src="index_files/Clipboard-Image_32.png" class="img4" /></p>
+<p class="ps9">Under the urls.py</p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s9">from django.urls import path</span></p>
+<p class="ps12"><span class="s9">from . import views</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s9">urlpatterns = [</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">   </span>path('', views.book_list, name='book_list'),</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">   </span>path('create/', views.book_create, name='book_create'),</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">   </span>path('update/&#60;int:pk&#62;/', views.book_update, name='book_update'),</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">   </span>path('delete/&#60;int:pk&#62;/', views.book_delete, name='book_delete'),</span></p>
+<p class="ps12"><span class="s9">]</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><img alt="" src="index_files/Clipboard-Image_31.png" class="img4" /></p>
+<p class="ps12"><img alt="" src="index_files/Clipboard-Image_32.png" class="img4" /></p>
 <ol class="ol1">
-  <li class="ps7">Register the URLs in <span class="s7">library_system/urls.py</span>:</li>
+  <li class="ps8">Register the URLs in <span class="s8">library_system/urls.py</span>:</li>
 </ol>
-<p class="ps11"><span class="s8">from django.contrib import admin</span></p>
-<p class="ps11"><span class="s8">from django.urls import path, include</span></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><span class="s8">urlpatterns = [</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">   </span>path('admin/', admin.site.urls),</span></p>
-<p class="ps11"><span class="s8"> <span class="Scrivener-converted-space">   </span>path('books/', include('books.urls')),</span></p>
-<p class="ps11"><span class="s8">]</span></p>
-<p class="ps12"><br /></p>
-<p class="ps11"><img alt="" src="index_files/Clipboard-Image_33.png" class="img4" /></p>
+<p class="ps12"><span class="s9">from django.contrib import admin</span></p>
+<p class="ps12"><span class="s9">from django.urls import path, include</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s9">urlpatterns = [</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">   </span>path('admin/', admin.site.urls),</span></p>
+<p class="ps12"><span class="s9"> <span class="Scrivener-converted-space">   </span>path('books/', include('books.urls')),</span></p>
+<p class="ps12"><span class="s9">]</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><img alt="" src="index_files/Clipboard-Image_33.png" class="img4" /></p>
 <ol class="ol1">
-  <li class="ps7">Create the HTML templates (<span class="s7">book_list.html</span>, <span class="s7">book_form.html</span>, <span class="s7">book_confirm_delete.html</span>) to render the CRUD forms.</li>
+  <li class="ps8">Create the HTML templates (<span class="s8">book_list.html</span>, <span class="s8">book_form.html</span>, <span class="s8">book_confirm_delete.html</span>) to render the CRUD forms.</li>
 </ol>
-<p class="ps16">Inside the books (1) create new folder named templates (3). Inside the templates(3) create a folder books (4).</p>
-<p class="ps8"><img alt="" src="index_files/Clipboard-Image_34.png" class="img21" /><img alt="" src="index_files/Clipboard-Image_35.png" class="img22" /></p>
-<p class="ps8"><br /></p>
-<p class="ps2">6. Register the templates directory to the Settings template directory</p>
-<p class="ps11"><img alt="" src="index_files/Clipboard-Image_36.png" class="img4" /></p>
+<p class="ps9">Inside the books (1) create new folder named templates (3). Inside the templates(3) create a folder books (4).</p>
+<p class="ps9"><img alt="" src="index_files/Clipboard-Image_34.png" class="img21" /><img alt="" src="index_files/Clipboard-Image_35.png" class="img22" /></p>
+<p class="ps15"><br /></p>
+<p class="ps9"><span class="s13">Changes here.</span></p>
+<p class="ps8"><strong><span class="s15">#book_list.html</span></strong></p>
+<p class="ps12"><span class="s14">{% extends 'base.html' %}</span></p>
+<p class="ps12"><span class="s14"><br /></span></p>
+<p class="ps12"><span class="s14">{% block content %}</span></p>
+<p class="ps12"><span class="s14">&#60;div class=&#34;row&#34;&#62;</span></p>
+<p class="ps12"><span class="s14">    &#60;div class=&#34;col-md-12&#34;&#62;</span></p>
+<p class="ps12"><span class="s14">        &#60;h2 class=&#34;mb-4&#34;&#62;Books List&#60;/h2&#62;</span></p>
+<p class="ps12"><span class="s14">        &#60;a href=&#34;{% url 'book_create' %}&#34; class=&#34;btn btn-primary mb-3&#34;&#62;Add New Book&#60;/a&#62;</span></p>
+<p class="ps12"><span class="s14"><br /></span></p>
+<p class="ps12"><span class="s14">        &#60;!-- Table --&#62;</span></p>
+<p class="ps12"><span class="s14">        &#60;table class=&#34;table table-bordered table-striped&#34;&#62;</span></p>
+<p class="ps12"><span class="s14">            &#60;thead&#62;</span></p>
+<p class="ps12"><span class="s14">                &#60;tr&#62;</span></p>
+<p class="ps12"><span class="s14">                    &#60;th&#62;Title&#60;/th&#62;</span></p>
+<p class="ps12"><span class="s14">                    &#60;th&#62;Author&#60;/th&#62;</span></p>
+<p class="ps12"><span class="s14">                    &#60;th&#62;ISBN&#60;/th&#62;</span></p>
+<p class="ps12"><span class="s14">                    &#60;th&#62;Publish Date&#60;/th&#62;</span></p>
+<p class="ps12"><span class="s14">                    &#60;th&#62;Actions&#60;/th&#62;</span></p>
+<p class="ps12"><span class="s14">                &#60;/tr&#62;</span></p>
+<p class="ps12"><span class="s14">            &#60;/thead&#62;</span></p>
+<p class="ps12"><span class="s14">            &#60;tbody&#62;</span></p>
+<p class="ps12"><span class="s14">                {% for book in books %}</span></p>
+<p class="ps12"><span class="s14">                    &#60;tr&#62;</span></p>
+<p class="ps12"><span class="s14">                        &#60;td&#62;{{ book.title }}&#60;/td&#62;</span></p>
+<p class="ps12"><span class="s14">                        &#60;td&#62;{{ book.author.name }}&#60;/td&#62;</span></p>
+<p class="ps12"><span class="s14">                        &#60;td&#62;{{ book.isbn }}&#60;/td&#62;</span></p>
+<p class="ps12"><span class="s14">                        &#60;td&#62;{{ book.publish_date }}&#60;/td&#62;</span></p>
+<p class="ps12"><span class="s14">                        &#60;td&#62;</span></p>
+<p class="ps12"><span class="s14">                            &#60;a href=&#34;{% url 'book_update' book.id %}&#34; class=&#34;btn btn-warning btn-edit&#34;&#62;Edit&#60;/a&#62;</span></p>
+<p class="ps12"><span class="s14">                            &#60;a href=&#34;{% url 'book_delete' book.id %}&#34; class=&#34;btn btn-danger btn-delete&#34;&#62;Delete&#60;/a&#62;</span></p>
+<p class="ps12"><span class="s14">                        &#60;/td&#62;</span></p>
+<p class="ps12"><span class="s14">                    &#60;/tr&#62;</span></p>
+<p class="ps12"><span class="s14">                {% endfor %}</span></p>
+<p class="ps12"><span class="s14">            &#60;/tbody&#62;</span></p>
+<p class="ps12"><span class="s14">        &#60;/table&#62;</span></p>
+<p class="ps12"><span class="s14">    &#60;/div&#62;</span></p>
+<p class="ps12"><span class="s14">&#60;/div&#62;</span></p>
+<p class="ps12"><span class="s14">{% endblock %}</span></p>
+<p class="ps12"><strong><span class="s3"><br /></span></strong></p>
+<p class="ps12"><strong><span class="s16">#</span></strong><strong><span class="s17">book_form.html</span></strong></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s13">{% extends 'base.html' %}</span></p>
+<p class="ps12"><span class="s13"><br /></span></p>
+<p class="ps12"><span class="s13">{% block content %}</span></p>
+<p class="ps12"><span class="s13">&#60;div class=&#34;row&#34;&#62;</span></p>
+<p class="ps12"><span class="s13">    &#60;div class=&#34;col-md-6 offset-md-3&#34;&#62;</span></p>
+<p class="ps12"><span class="s13">        &#60;h2 class=&#34;mb-4&#34;&#62;{{ form.instance.id|yesno:&#34;Edit Book,Add New Book&#34; }}&#60;/h2&#62;</span></p>
+<p class="ps12"><span class="s13">        &#60;form method=&#34;post&#34;&#62;</span></p>
+<p class="ps12"><span class="s13">            {% csrf_token %}</span></p>
+<p class="ps12"><span class="s13">            {{ form.as_p }}</span></p>
+<p class="ps12"><span class="s13">            &#60;button type=&#34;submit&#34; class=&#34;btn btn-primary&#34;&#62;{{ form.instance.id|yesno:&#34;Save Changes,Add Book&#34; }}&#60;/button&#62;</span></p>
+<p class="ps12"><span class="s13">        &#60;/form&#62;</span></p>
+<p class="ps12"><span class="s13">    &#60;/div&#62;</span></p>
+<p class="ps12"><span class="s13">&#60;/div&#62;</span></p>
+<p class="ps12"><span class="s13">{% endblock %}</span></p>
+<p class="ps12"><br /></p>
+<p class="ps12"><strong><span class="s18"># </span></strong><strong><span class="s19">book_confirm_delete.html</span></strong></p>
+<p class="ps12"><span class="s20">{% extends 'base.html' %}</span></p>
+<p class="ps12"><span class="s20"><br /></span></p>
+<p class="ps12"><span class="s20">{% block content %}</span></p>
+<p class="ps12"><span class="s20">&#60;div class=&#34;row&#34;&#62;</span></p>
+<p class="ps12"><span class="s20">    &#60;div class=&#34;col-md-6 offset-md-3&#34;&#62;</span></p>
+<p class="ps12"><span class="s20">        &#60;h2&#62;Are you sure you want to delete &#34;{{ book.title }}&#34;?&#60;/h2&#62;</span></p>
+<p class="ps12"><span class="s20">        &#60;form method=&#34;post&#34;&#62;</span></p>
+<p class="ps12"><span class="s20">            {% csrf_token %}</span></p>
+<p class="ps12"><span class="s20">            &#60;button type=&#34;submit&#34; class=&#34;btn btn-danger&#34;&#62;Yes, Delete&#60;/button&#62;</span></p>
+<p class="ps12"><span class="s20">            &#60;a href=&#34;{% url 'book_list' %}&#34; class=&#34;btn btn-secondary&#34;&#62;Cancel&#60;/a&#62;</span></p>
+<p class="ps12"><span class="s20">        &#60;/form&#62;</span></p>
+<p class="ps12"><span class="s20">    &#60;/div&#62;</span></p>
+<p class="ps12"><span class="s20">&#60;/div&#62;</span></p>
+<p class="ps12"><span class="s20">{% endblock %}</span></p>
+<p class="ps4"><br /></p>
+<p class="ps3">6. Register the templates directory to the Settings template directory</p>
+<p class="ps12"><img alt="" src="index_files/Clipboard-Image_36.png" class="img4" /></p>
 <p class="ps17"><br /></p>
-<p class="ps2"><strong><span class="s2">Django Program or Code:</span></strong><br />Code for views, forms, and URL patterns has been provided above.</p>
-<p class="ps2"><strong><span class="s2">Results:</span></strong><br />The user can now view the list of books, add new books, update existing books, and delete books.</p>
-<p class="ps2"><strong><span class="s2">Follow-Up Questions:</span></strong></p>
+<p class="ps3"><strong><span class="s3">Django Program or Code:</span></strong><br />Code for views, forms, and URL patterns has been provided above.</p>
+<p class="ps3"><strong><span class="s3">Results:</span></strong><br />The user can now view the list of books, add new books, update existing books, and delete books.</p>
+<p class="ps3"><strong><span class="s3">Follow-Up Questions:</span></strong></p>
 <ol class="ol1">
-  <li class="ps4">How do Django forms work with models for CRUD operations?</li>
-  <li class="ps6">What is the role of the <span class="s7">redirect()</span> function in Django views?</li>
+  <li class="ps5">How do Django forms work with models for CRUD operations?</li>
+  <li class="ps7">What is the role of the <span class="s8">redirect()</span> function in Django views?</li>
 </ol>
-<p class="ps2"><strong><span class="s2">Findings:</span></strong><br />Students can perform CRUD operations for books and users.</p>
-<p class="ps2"><strong><span class="s2">Summary:</span></strong><br />This activity allows students to implement and interact with the core database of the Library Management System.</p>
-<p class="ps2"><strong><span class="s2">Conclusion:</span></strong><br />CRUD functionality is essential for any web application, and students now have the ability to manage books in the system.</p>
+<p class="ps3"><strong><span class="s3">Findings:</span></strong><br />Students can perform CRUD operations for books and users.</p>
+<p class="ps3"><strong><span class="s3">Summary:</span></strong><br />This activity allows students to implement and interact with the core database of the Library Management System.</p>
+<p class="ps3"><strong><span class="s3">Conclusion:</span></strong><br />CRUD functionality is essential for any web application, and students now have the ability to manage books in the system.</p>
+<h2 class="ps2"><a id="doc5"></a><strong><span class="s2">Making an Accounts</span></strong></h2>
+<h2 class="ps2"><a id="doc6"></a><strong><span class="s2">Adding accounts</span></strong></h2>
+<h3 class="ps18"><strong><span class="s21">Step 1: Create a New App Called </span></strong><strong><span class="s22">accounts</span></strong></h3>
+<p class="ps3">In your project directory, run:</p>
+<p class="ps9"><img alt="" src="index_files/Clipboard-Image_37.png" class="img4" /></p>
+<p class="ps3">This will create a new app named <span class="s8">accounts</span>. Now, we will move all the authentication-related logic and templates into this app.</p>
+<h3 class="ps18"><a id="doc7"></a><strong><span class="s21">Step 2: Add </span></strong><strong><span class="s22">accounts</span></strong><strong><span class="s21"> to </span></strong><strong><span class="s22">INSTALLED_APPS</span></strong></h3>
+<p class="ps3">Next, open your <span class="s8">settings.py</span> file and add the <span class="s8">accounts</span> app to the <span class="s8">INSTALLED_APPS</span> list:</p>
+<p class="ps3">INSTALLED_APPS = [</p>
+<p class="ps3"> <span class="Scrivener-converted-space">   </span># other apps...</p>
+<p class="ps3"> <span class="Scrivener-converted-space">   </span>'accounts',</p>
+<p class="ps3">]</p>
+<p class="ps14"><br /></p>
+<p class="ps12"><img alt="" src="index_files/Clipboard-Image_38.png" class="img23" /></p>
+<p class="ps14"><br /></p>
+<h3 class="ps18"><a id="doc8"></a><strong><span class="s21">Step 3: Set Up URLs in </span></strong><strong><span class="s22">accounts/urls.py</span></strong></h3>
+<p class="ps3">Inside the <span class="s8">accounts</span> app, create a <span class="s8">urls.py</span> file to handle user authentication routes. Here's how to structure it:</p>
+<p class="ps3">from django.urls import path</p>
+<p class="ps3">from . import views</p>
+<p class="ps3">from django.contrib.auth import views as auth_views</p>
+<p class="ps14"><br /></p>
+<p class="ps3">urlpatterns = [</p>
+<p class="ps3"> <span class="Scrivener-converted-space">   </span>path('register/', views.register, name='register'),</p>
+<p class="ps3"> <span class="Scrivener-converted-space">   </span>path('login/', auth_views.LoginView.as_view(template_name='accounts/login.html'), name='login'),</p>
+<p class="ps3"> <span class="Scrivener-converted-space">   </span>path('logout/', auth_views.LogoutView.as_view(), name='logout'),</p>
+<p class="ps3">]</p>
+<p class="ps14"><br /></p>
+<h4 class="ps3"><strong><span class="s3">accounts/urls.py:</span></strong></h4>
+<h4 class="ps12"><img alt="" src="index_files/Clipboard-Image_39.png" class="img4" /></h4>
+<p class="ps3">Here:</p>
+<ul class="ul1">
+  <li class="ps5"><strong>register/</strong><span class="s23">: The route for registering users.</span></li>
+  <li class="ps6"><strong>login/</strong><span class="s23">: The route for logging in users (using Django's built-in login view).</span></li>
+  <li class="ps7"><strong>logout/</strong><span class="s23">: The route for logging out users (using Django's built-in logout view).</span></li>
+</ul>
+<h4 class="ps19"><br /></h4>
+<h3 class="ps18"><a id="doc9"></a><strong><span class="s21">Step 4: Create the Registration View in </span></strong><strong><span class="s22">accounts/views.py</span></strong></h3>
+<p class="ps3">Now, create the view for user registration in the <span class="s8">views.py</span> file of the <span class="s8">accounts</span> app.</p>
+<p class="ps3">from django.shortcuts import render, redirect</p>
+<p class="ps3">from django.contrib.auth.forms import UserCreationForm</p>
+<p class="ps3">from django.contrib.auth import login</p>
+<p class="ps14"><br /></p>
+<p class="ps3">def register(request):</p>
+<p class="ps3"> <span class="Scrivener-converted-space">   </span>if request.method == 'POST':</p>
+<p class="ps3"> <span class="Scrivener-converted-space">       </span>form = UserCreationForm(request.POST)</p>
+<p class="ps3"> <span class="Scrivener-converted-space">       </span>if form.is_valid():</p>
+<p class="ps3"> <span class="Scrivener-converted-space">           </span>user = form.save()</p>
+<p class="ps3"> <span class="Scrivener-converted-space">           </span>login(request, user) <span class="Scrivener-converted-space"> </span># Log the user in after successful registration</p>
+<p class="ps3"> <span class="Scrivener-converted-space">           </span>return redirect('book_list') <span class="Scrivener-converted-space"> </span># Redirect to books list after registering</p>
+<p class="ps3"> <span class="Scrivener-converted-space">   </span>else:</p>
+<p class="ps3"> <span class="Scrivener-converted-space">       </span>form = UserCreationForm()</p>
+<p class="ps3"> <span class="Scrivener-converted-space">   </span>return render(request, 'accounts/register.html', {'form': form})</p>
+<p class="ps14"><br /></p>
+<h4 class="ps3"><strong><span class="s3">accounts/views.py:</span></strong></h4>
+<h4 class="ps12"><img alt="" src="index_files/Clipboard-Image_40.png" class="img4" /></h4>
+<p class="ps19"><br /></p>
+<p class="ps3">This <span class="s8">register</span> view:</p>
+<ul class="ul1">
+  <li class="ps5">Uses Django's built-in <span class="s8">UserCreationForm</span> to handle user registration.</li>
+  <li class="ps7">If the form is valid, it logs in the user and redirects them to the <span class="s8">book_list</span> page.</li>
+</ul>
+<h3 class="ps18"><a id="doc10"></a><strong><span class="s21">Step 5: Create Templates for Registration and Login</span></strong></h3>
+<p class="ps3">Create the templates for registration and login inside the <span class="s8">accounts/templates/accounts/</span> folder.</p>
+<p class="ps3">{% extends 'base.html' %}</p>
+<p class="ps14"><br /></p>
+<p class="ps3">{% block content %}</p>
+<p class="ps3">&#60;div class=&#34;login-register&#34;&#62;</p>
+<p class="ps3"> <span class="Scrivener-converted-space">   </span>&#60;h3 class=&#34;mb-4&#34;&#62;Register&#60;/h3&#62;</p>
+<p class="ps3"> <span class="Scrivener-converted-space">   </span>&#60;form method=&#34;post&#34;&#62;</p>
+<p class="ps3"> <span class="Scrivener-converted-space">       </span>{% csrf_token %}</p>
+<p class="ps3"> <span class="Scrivener-converted-space">       </span>{{ form.as_p }}</p>
+<p class="ps3"> <span class="Scrivener-converted-space">       </span>&#60;button type=&#34;submit&#34; class=&#34;btn btn-primary&#34;&#62;Register&#60;/button&#62;</p>
+<p class="ps3"> <span class="Scrivener-converted-space">   </span>&#60;/form&#62;</p>
+<p class="ps3"> <span class="Scrivener-converted-space">   </span>&#60;p class=&#34;mt-3&#34;&#62;Already have an account? &#60;a href=&#34;{% url 'login' %}&#34;&#62;Login here&#60;/a&#62;&#60;/p&#62;</p>
+<p class="ps3">&#60;/div&#62;</p>
+<p class="ps3">{% endblock %}</p>
+<p class="ps14"><br /></p>
+<h4 class="ps3"><strong><span class="s3">accounts/templates/accounts/register.html:</span></strong></h4>
+<h4 class="ps12"><img alt="" src="index_files/Clipboard-Image_41.png" class="img4" /></h4>
+<p class="ps3">This template allows users to register by submitting the form.</p>
+<p class="ps19"><br /></p>
+<h4 class="ps3"><a id="doc11"></a><strong><span class="s3">accounts/templates/accounts/login.html:</span></strong></h4>
+<h4 class="ps3"><strong><span class="s3">{% extends 'base.html' %}</span></strong></h4>
+<h4 class="ps17"><br /></h4>
+<h4 class="ps3"><strong><span class="s3">{% block content %}</span></strong></h4>
+<h4 class="ps3"><strong><span class="s3">&#60;div class=&#34;login-register&#34;&#62;</span></strong></h4>
+<h4 class="ps3"><strong><span class="s3"> <span class="Scrivener-converted-space">   </span>&#60;h3 class=&#34;mb-4&#34;&#62;Login&#60;/h3&#62;</span></strong></h4>
+<h4 class="ps3"><strong><span class="s3"> <span class="Scrivener-converted-space">   </span>&#60;form method=&#34;post&#34;&#62;</span></strong></h4>
+<h4 class="ps3"><strong><span class="s3"> <span class="Scrivener-converted-space">       </span>{% csrf_token %}</span></strong></h4>
+<h4 class="ps3"><strong><span class="s3"> <span class="Scrivener-converted-space">       </span>{{ form.as_p }}</span></strong></h4>
+<h4 class="ps3"><strong><span class="s3"> <span class="Scrivener-converted-space">       </span>&#60;button type=&#34;submit&#34; class=&#34;btn btn-success&#34;&#62;Login&#60;/button&#62;</span></strong></h4>
+<h4 class="ps3"><strong><span class="s3"> <span class="Scrivener-converted-space">   </span>&#60;/form&#62;</span></strong></h4>
+<h4 class="ps3"><strong><span class="s3"> <span class="Scrivener-converted-space">   </span>&#60;p class=&#34;mt-3&#34;&#62;Don't have an account? &#60;a href=&#34;{% url 'register' %}&#34;&#62;Register here&#60;/a&#62;&#60;/p&#62;</span></strong></h4>
+<h4 class="ps3"><strong><span class="s3">&#60;/div&#62;</span></strong></h4>
+<h4 class="ps3"><strong><span class="s3">{% endblock %}</span></strong></h4>
+<p class="ps17"><br /></p>
+<p class="ps12"><img alt="" src="index_files/Clipboard-Image_42.png" class="img4" /></p>
+<p class="ps3">This template handles user login.</p>
+<h3 class="ps18"><a id="doc12"></a><strong><span class="s21">Step 6: Update Main </span></strong><strong><span class="s22">urls.py</span></strong><strong><span class="s21"> to Include Accounts URLs</span></strong></h3>
+<p class="ps3">In your main project’s <span class="s8">urls.py</span> (the one in the root of your project), include the <span class="s8">accounts</span> app URLs:</p>
+<p class="ps3"><span class="s13">from django.contrib import admin</span></p>
+<p class="ps3"><span class="s13">from django.urls import path, include</span></p>
+<p class="ps14"><br /></p>
+<p class="ps3"><span class="s13">urlpatterns = [</span></p>
+<p class="ps3"><span class="s13"> <span class="Scrivener-converted-space">   </span>path('admin/', admin.site.urls),</span></p>
+<p class="ps3"><span class="s13"> <span class="Scrivener-converted-space">   </span>path('accounts/', include('accounts.urls')), <span class="Scrivener-converted-space"> </span># Include accounts app URLs</span></p>
+<p class="ps3"><span class="s13"> <span class="Scrivener-converted-space">   </span>path('books/', include('books.urls')),</span></p>
+<p class="ps3"><span class="s13"> <span class="Scrivener-converted-space">   </span>path('users/', include('users.urls')),</span></p>
+<p class="ps3"><span class="s13">]</span></p>
+<p class="ps14"><br /></p>
+<h4 class="ps3"><strong><span class="s3">project/urls.py (root level):</span></strong></h4>
+<p class="ps9"><img alt="" src="index_files/Clipboard-Image_43.png" class="img4" /></p>
+<h3 class="ps18"><a id="doc13"></a><strong><span class="s21">Step 7: Update </span></strong><strong><span class="s22">base.html</span></strong><strong><span class="s21"> with Login, Logout, and Register Links</span></strong></h3>
+<p class="ps3">Update your <strong><span class="s11">base.html</span></strong> to include links for login, logout, and register. Use <span class="s8">{% url 'login' %}</span>, <span class="s8">{% url 'logout' %}</span>, and <span class="s8">{% url 'register' %}</span> to dynamically link to the correct pages.</p>
+<p class="ps12">&#60;nav class=&#34;navbar navbar-expand-lg navbar-light&#34;&#62;</p>
+<p class="ps12"> <span class="Scrivener-converted-space">   </span>&#60;a class=&#34;navbar-brand&#34; href=&#34;#&#34;&#62;</p>
+<p class="ps12"> <span class="Scrivener-converted-space">       </span>&#60;img src=&#34;<a href="https://via.placeholder.com/50x50"><span class="s6">https://via.placeholder.com/50x50</span></a>&#34; alt=&#34;Library Logo&#34; class=&#34;d-inline-block align-top&#34;&#62;</p>
+<p class="ps12"> <span class="Scrivener-converted-space">       </span>Library System</p>
+<p class="ps12"> <span class="Scrivener-converted-space">   </span>&#60;/a&#62;</p>
+<p class="ps12"> <span class="Scrivener-converted-space">   </span>&#60;div class=&#34;collapse navbar-collapse&#34; id=&#34;navbarNav&#34;&#62;</p>
+<p class="ps12"> <span class="Scrivener-converted-space">       </span>&#60;ul class=&#34;navbar-nav ml-auto&#34;&#62;</p>
+<p class="ps12"> <span class="Scrivener-converted-space">           </span>&#60;li class=&#34;nav-item&#34;&#62;&#60;a class=&#34;nav-link&#34; href=&#34;{% url 'book_list' %}&#34;&#62;Books&#60;/a&#62;&#60;/li&#62;</p>
+<p class="ps12"> <span class="Scrivener-converted-space">           </span>&#60;li class=&#34;nav-item&#34;&#62;&#60;a class=&#34;nav-link&#34; href=&#34;#&#34;&#62;Users&#60;/a&#62;&#60;/li&#62;</p>
+<p class="ps12">            </p>
+<p class="ps12"> <span class="Scrivener-converted-space">           </span>{% if user.is_authenticated %}</p>
+<p class="ps12"> <span class="Scrivener-converted-space">               </span>&#60;li class=&#34;nav-item&#34;&#62;&#60;a class=&#34;nav-link&#34; href=&#34;{% url 'logout' %}&#34;&#62;Logout&#60;/a&#62;&#60;/li&#62;</p>
+<p class="ps12"> <span class="Scrivener-converted-space">           </span>{% else %}</p>
+<p class="ps12"> <span class="Scrivener-converted-space">               </span>&#60;li class=&#34;nav-item&#34;&#62;&#60;a class=&#34;nav-link&#34; href=&#34;{% url 'login' %}&#34;&#62;Login&#60;/a&#62;&#60;/li&#62;</p>
+<p class="ps12"> <span class="Scrivener-converted-space">               </span>&#60;li class=&#34;nav-item&#34;&#62;&#60;a class=&#34;nav-link&#34; href=&#34;{% url 'register' %}&#34;&#62;Register&#60;/a&#62;&#60;/li&#62;</p>
+<p class="ps12"> <span class="Scrivener-converted-space">           </span>{% endif %}</p>
+<p class="ps12"> <span class="Scrivener-converted-space">       </span>&#60;/ul&#62;</p>
+<p class="ps12"> <span class="Scrivener-converted-space">   </span>&#60;/div&#62;</p>
+<p class="ps12">&#60;/nav&#62;</p>
+<p class="ps4"><br /></p>
+<p class="ps12"><img alt="" src="index_files/Clipboard-Image_44.png" class="img4" /></p>
+<h3 class="ps18"><a id="doc14"></a><strong><span class="s21">Step 8: Update Settings for Redirects</span></strong></h3>
+<p class="ps3">Don't forget to add settings in <span class="s8">settings.py</span> to handle post-login and post-logout redirects:</p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s8">LOGIN_REDIRECT_URL = 'book_list' <span class="Scrivener-converted-space"> </span># Redirect to books list after login</span></p>
+<p class="ps12"><span class="s8">LOGOUT_REDIRECT_URL = 'login' <span class="Scrivener-converted-space"> </span># Redirect to login page after logout</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><img alt="" src="index_files/Clipboard-Image_45.png" class="img4" /></p>
+<h3 class="ps18"><a id="doc15"></a><strong><span class="s21">Step 9: Migrate the Database</span></strong></h3>
+<p class="ps3">Since you're using Django's built-in <span class="s8">User</span> model, run the following command to ensure the authentication tables are set up correctly:</p>
+<p class="ps12">python manage.py makemigrations</p>
+<p class="ps3">python manage.py migrate</p>
+<p class="ps14"><br /></p>
+<p class="ps15"><br /></p>
+<h3 class="ps18"><a id="doc16"></a><strong><span class="s21">Step 10: Run the Server</span></strong></h3>
+<p class="ps3">Finally, run your server:</p>
+<p class="ps14"><br /></p>
+<p class="ps3">Now, you can visit:</p>
+<ul class="ul1">
+  <li class="ps5">/accounts/register/<span class="s24"> to register users.</span></li>
+  <li class="ps6">/accounts/login/<span class="s24"> to log in users.</span></li>
+  <li class="ps7">/accounts/logout/<span class="s24"> to log out users.</span></li>
+</ul>
+<h3 class="ps18"><a id="doc17"></a><strong><span class="s21">Laboratory Activity No. 8:</span></strong></h3>
+<p class="ps3"><strong><span class="s3">Topic belongs to:</span></strong> Problem-Solving Strategies<br /><strong><span class="s3">Title:</span></strong> Implementing Search Functionality for Books<br /><strong><span class="s3">Introduction:</span></strong><br />In this activity, you will implement a search functionality that allows users to search for books by title, author, or ISBN. This will involve creating a search view and integrating it into the web interface.</p>
+<p class="ps3"><strong><span class="s3">Objectives:</span></strong></p>
+<ul class="ul1">
+  <li class="ps5">Implement search functionality for books.</li>
+  <li class="ps7">Learn to filter querysets in Django based on user input.</li>
+</ul>
+<p class="ps3"><strong><span class="s3">Theory and Detailed Discussion:</span></strong><br />Searching is one of the most common operations in any web application. Django allows you to filter querysets using its ORM (Object-Relational Mapping). By capturing user input and filtering the database, we can dynamically display search results based on the search criteria.</p>
+<p class="ps3"><strong><span class="s3">Materials, Software, and Libraries:</span></strong></p>
+<ul class="ul1">
+  <li class="ps5">Django Framework</li>
+  <li class="ps7">SQLite (or any other database you are using)</li>
+</ul>
+<p class="ps3"><strong><span class="s3">Time Frame:</span></strong><br />1.5 hours</p>
+<p class="ps3"><strong><span class="s3">Step by Step Procedure:</span></strong></p>
+<ol class="ol1">
+  <li class="ps8">Create a search form in <span class="s8">books/forms.py</span>:</li>
+</ol>
+<p class="ps20"><span class="s8">python</span></p>
+<p class="ps12"><span class="s8">Copy code</span></p>
+<p class="ps12"><span class="s8">from django import forms</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s8">class SearchForm(forms.Form):</span></p>
+<p class="ps12"><span class="s8"> <span class="Scrivener-converted-space">   </span>query = forms.CharField(max_length=100)</span></p>
+<p class="ps13"><br /></p>
+<ol class="ol1">
+  <li class="ps8">Create a view in <span class="s8">books/views.py</span> to handle the search:</li>
+</ol>
+<p class="ps20"><span class="s8">python</span></p>
+<p class="ps12"><span class="s8">Copy code</span></p>
+<p class="ps12"><span class="s8">from django.shortcuts import render</span></p>
+<p class="ps12"><span class="s8">from .models import Book</span></p>
+<p class="ps12"><span class="s8">from .forms import SearchForm</span></p>
+<p class="ps13"><br /></p>
+<p class="ps12"><span class="s8">def search_books(request):</span></p>
+<p class="ps12"><span class="s8"> <span class="Scrivener-converted-space">   </span>query = request.GET.get('query', '')</span></p>
+<p class="ps12"><span class="s8"> <span class="Scrivener-converted-space">   </span>books = Book.objects.filter(title__icontains=query) | Book.objects.filter(author__icontains=query)</span></p>
+<p class="ps12"><span class="s8"> <span class="Scrivener-converted-space">   </span>return render(request, 'books/search_results.html', {'books': books, 'query': query})</span></p>
+<p class="ps13"><br /></p>
+<ol class="ol1">
+  <li class="ps8">Add a URL pattern for the search view in <span class="s8">books/urls.py</span>:</li>
+</ol>
+<p class="ps20"><span class="s8">python</span></p>
+<p class="ps12"><span class="s8">Copy code</span></p>
+<p class="ps12"><span class="s8">urlpatterns = [</span></p>
+<p class="ps12"><span class="s8"> <span class="Scrivener-converted-space">   </span>...</span></p>
+<p class="ps12"><span class="s8"> <span class="Scrivener-converted-space">   </span>path('search/', views.search_books, name='search_books'),</span></p>
+<p class="ps12"><span class="s8">]</span></p>
+<p class="ps13"><br /></p>
+<ol class="ol1">
+  <li class="ps8">Create the search results template <span class="s8">search_results.html</span>:</li>
+</ol>
+<p class="ps20"><span class="s8">html</span></p>
+<p class="ps12"><span class="s8">Copy code</span></p>
+<p class="ps12"><span class="s8">&#60;h2&#62;Search Results for &#34;{{ query }}&#34;&#60;/h2&#62;</span></p>
+<p class="ps12"><span class="s8">&#60;ul&#62;</span></p>
+<p class="ps12"><span class="s8"> <span class="Scrivener-converted-space">   </span>{% for book in books %}</span></p>
+<p class="ps12"><span class="s8"> <span class="Scrivener-converted-space">       </span>&#60;li&#62;{{ book.title }} by {{ book.author }}&#60;/li&#62;</span></p>
+<p class="ps12"><span class="s8"> <span class="Scrivener-converted-space">   </span>{% empty %}</span></p>
+<p class="ps12"><span class="s8"> <span class="Scrivener-converted-space">       </span>&#60;li&#62;No books found.&#60;/li&#62;</span></p>
+<p class="ps12"><span class="s8"> <span class="Scrivener-converted-space">   </span>{% endfor %}</span></p>
+<p class="ps12"><span class="s8">&#60;/ul&#62;</span></p>
+<p class="ps13"><br /></p>
+<ol class="ol1">
+  <li class="ps8">Add a search form to your homepage template to make the search accessible.</li>
+</ol>
+<p class="ps3"><strong><span class="s3">Django Program or Code:</span></strong><br />Code for the search form, view, and template is provided above.</p>
+<p class="ps3"><strong><span class="s3">Results:</span></strong><br />Users can search for books by title or author, and the results are displayed on a separate page.</p>
+<p class="ps3"><strong><span class="s3">Follow-Up Questions:</span></strong></p>
+<ol class="ol1">
+  <li class="ps5">What is the difference between <span class="s8">icontains</span> and <span class="s8">contains</span> in Django queries?</li>
+  <li class="ps7">How would you optimize the search for a large database?</li>
+</ol>
+<p class="ps3"><strong><span class="s3">Findings:</span></strong><br />Search functionality is successfully implemented, allowing users to find books easily.</p>
+<p class="ps3"><strong><span class="s3">Summary:</span></strong><br />The search feature improves the usability of the Library Management System by enabling users to search for books based on different criteria.</p>
+<p class="ps3"><strong><span class="s3">Conclusion:</span></strong><br />The system now includes the ability to search books by title or author.</p>
 </div>
 </body>
 </html>
